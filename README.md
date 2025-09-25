@@ -1,5 +1,10 @@
-# Test Website Mock
+# Modern Website Template
 
-This is a simple mock website for testing GitHub Pages.
+This is a modern website template inspired by Microsoft Azure Static Web Apps starters.
 
-Created on September 24, 2025.
+Features:
+- Responsive card grid layout
+- Clean, professional design
+- Hosted on GitHub Pages
+
+Last updated: September 24, 2025

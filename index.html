@@ -3,17 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Website Mock</title>
+    <title>Modern Website Template</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:300,400,700,800" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f0f0f0; }
-        h1 { color: #333; }
-        p { color: #666; }
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #fbfbfb;
+            font-family: 'PT Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 45px;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .home {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(346px, 1fr));
+            grid-gap: 50px;
+            max-width: 1200px;
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .card-small {
+            width: 346px;
+            height: 256px;
+            border-radius: 6px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 28px;
+            padding-bottom: 28px;
+            color: #393939;
+            text-decoration: none;
+            background-color: #ffffff;
+            transition: ease-in-out background-color 0.15s;
+        }
+
+        .card-small:hover {
+            background-color: #f1f9ff;
+            cursor: pointer;
+        }
+
+        .card-small h3 {
+            margin-top: 40px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .icon-placeholder {
+            width: 153px;
+            height: 163px;
+            background-color: #3498DB;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 48px;
+        }
+
+        .footer {
+            margin-top: 100px;
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Test Website!</h1>
-    <p>This is a mock website created for testing purposes.</p>
-    <p>Hosted on GitHub Pages.</p>
-    <p>Current date: September 24, 2025</p>
+    <div class="home">
+        <h1>Welcome to My Modern Website</h1>
+        <div class="card-grid">
+            <div class="card-small">
+                <div class="icon-placeholder">🚀</div>
+                <h3>Project 1</h3>
+            </div>
+            <div class="card-small">
+                <div class="icon-placeholder">💡</div>
+                <h3>Project 2</h3>
+            </div>
+            <div class="card-small">
+                <div class="icon-placeholder">🌟</div>
+                <h3>Project 3</h3>
+            </div>
+            <div class="card-small">
+                <div class="icon-placeholder">🔧</div>
+                <h3>Project 4</h3>
+            </div>
+            <div class="card-small">
+                <div class="icon-placeholder">📱</div>
+                <h3>Project 5</h3>
+            </div>
+            <div class="card-small">
+                <div class="icon-placeholder">🎨</div>
+                <h3>Project 6</h3>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Built with inspiration from Microsoft Azure Static Web Apps templates. Last updated: <span id="current-date"></span></p>
+    </div>
+    <script>
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString();
+    </script>
 </body>
 </html>
