@@ -1,19 +1,19 @@
-# Microsoft Homepage Clone
+# Modern Business Homepage Template
 
-A faithful recreation of the Microsoft.com homepage featuring their latest products, services, and design elements.
+A clean, professional homepage template inspired by modern business websites. Features a responsive design with multiple sections for showcasing products and services.
 
 ## 🚀 Features
 
-- **Official Microsoft Design**: Authentic Microsoft homepage layout and styling
+- **Modern Design**: Clean, professional layout inspired by leading business websites
 - **Responsive Design**: Mobile-friendly with adaptive grid layouts
-- **Product Showcases**: Surface devices, Xbox Game Pass, Microsoft Teams, Windows 11
+- **Product Showcases**: Generic sections for products and services
 - **Interactive Elements**: Hover effects, mobile menu, smooth transitions
 - **GitHub Pages Hosted**: Fully public website hosted on GitHub Pages
 
 ## 📁 Project Structure
 
 ```
-├── index.html          # Main homepage with Microsoft template
+├── index.html          # Main homepage with modern business template
 ├── README.md           # This documentation
 ├── .nojekyll          # Prevents Jekyll processing
 └── .github/
@@ -45,13 +45,12 @@ This site is automatically deployed to GitHub Pages from the `master` branch.
 ## 🎨 Customization
 
 ### Colors
-- Primary: Microsoft Blue (#0067b8)
+- Primary: Professional Blue (#007acc)
 - Text: Dark Gray (#262626)
 - Background: White (#ffffff)
 
 ### Fonts
-- Primary: Segoe UI (system font stack)
-- Fallback: Tahoma, Geneva, Verdana, sans-serif
+- Primary: System font stack (Segoe UI, Tahoma, Geneva, Verdana, sans-serif)
 
 ## 📱 Responsive Breakpoints
 
@@ -76,7 +75,6 @@ This site is automatically deployed to GitHub Pages from the `master` branch.
 ## 📚 Resources
 
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [Microsoft Design Guidelines](https://developer.microsoft.com/en-us/fluentui)
 - [Font Awesome Icons](https://fontawesome.com/)
 
 ## 📝 Contributing
@@ -89,7 +87,7 @@ This site is automatically deployed to GitHub Pages from the `master` branch.
 
 ## 📄 License
 
-This project is for educational purposes. Microsoft branding and content are property of Microsoft Corporation.
+This project is for educational and demonstration purposes.
 
 ---
 
