@@ -15,7 +15,18 @@ A clean, professional homepage template inspired by modern business websites. Fe
 ```
 ├── index.html          # Main homepage with modern business template
 ├── README.md           # This documentation
+├── package.json        # npm scripts and project metadata
+├── .prettierrc         # Code formatting configuration
+├── .editorconfig       # Editor settings for consistent formatting
 ├── .nojekyll          # Prevents Jekyll processing
+├── .vscode/           # VS Code configuration files
+│   ├── settings.json  # Workspace settings
+│   ├── extensions.json # Recommended extensions
+│   ├── launch.json    # Debug configurations
+│   └── tasks.json     # Build tasks
+├── .devcontainer/     # Development container configuration
+│   ├── devcontainer.json
+│   └── Dockerfile
 └── .github/
     └── workflows/
         └── deploy.yml  # GitHub Actions deployment workflow
@@ -72,7 +83,61 @@ This site is automatically deployed to GitHub Pages from the `master` branch.
 - **Path**: `/`
 - **Build Type**: `legacy`
 
-## 📚 Resources
+## � VS Code & GitHub Copilot Development
+
+This project is optimized for development with Visual Studio Code and GitHub Copilot.
+
+### 🚀 Quick Start with VS Code
+
+1. **Open in VS Code**: Open the project folder in VS Code
+2. **Install Extensions**: VS Code will prompt you to install recommended extensions
+3. **Start Development Server**: Press `Ctrl+Shift+P` → "Tasks: Run Task" → "Start Live Server"
+4. **Debug in Browser**: Press `F5` to launch the site in your browser with debugging
+
+### 🔧 Recommended Extensions
+
+The following extensions are recommended for optimal development:
+
+- **Live Server**: Real-time development server with hot reload
+- **GitHub Copilot**: AI-powered code completion and suggestions
+- **Prettier**: Code formatting for HTML, CSS, and JavaScript
+- **Auto Rename Tag**: Automatically rename paired HTML tags
+- **Path Intellisense**: Autocomplete file paths
+- **Edge DevTools**: Debug in Microsoft Edge
+
+### 🎯 GitHub Copilot Features
+
+- **Smart Completions**: Get context-aware code suggestions
+- **Code Explanations**: Ask Copilot to explain complex code sections
+- **Refactoring Help**: Get suggestions for improving code structure
+- **Documentation**: Generate documentation and comments
+- **Testing**: Create test cases and validation code
+
+### 🐳 Development Container (Optional)
+
+For a consistent development environment:
+
+1. Install the "Dev Containers" extension
+2. Press `Ctrl+Shift+P` → "Dev Containers: Reopen in Container"
+3. VS Code will build and open the project in a container
+
+### ⌨️ Useful Keyboard Shortcuts
+
+- `Ctrl+Shift+P`: Command palette
+- `Ctrl+K Ctrl+S`: Keyboard shortcuts
+- `Ctrl+Shift+M`: Toggle terminal
+- `F5`: Start debugging
+- `Ctrl+Shift+B`: Run build task
+
+### 🔍 Copilot Chat Commands
+
+Use these commands in Copilot Chat for better assistance:
+
+- `/explain`: Explain selected code
+- `/fix`: Fix issues in selected code
+- `/tests`: Generate tests for selected code
+- `/doc`: Generate documentation
+- `/optimize`: Optimize selected code
 
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
 - [Font Awesome Icons](https://fontawesome.com/)

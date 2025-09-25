@@ -1,0 +1,36 @@
+{
+    "name": "HTML/CSS Development",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/github-cli:1": {},
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "lts"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.vscode-live-server",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "esbenp.prettier-vscode",
+                "formulahendry.auto-rename-tag",
+                "christian-kohler.path-intellisense",
+                "ms-edgedevtools.vscode-edge-devtools"
+            ],
+            "settings": {
+                "editor.formatOnSave": true,
+                "html.format.wrapLineLength": 120,
+                "emmet.includeLanguages": {
+                    "html": "html"
+                },
+                "github.copilot.enable": {
+                    "*": true
+                }
+            }
+        }
+    },
+    "forwardPorts": [5500],
+    "postCreateCommand": "npm install -g live-server prettier html-validate",
+    "remoteUser": "vscode"
+}

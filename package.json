@@ -1,0 +1,40 @@
+{
+  "name": "modern-business-homepage",
+  "version": "1.0.0",
+  "description": "A modern, responsive business homepage template optimized for VS Code and GitHub Copilot development",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=5500 --open=index.html",
+    "dev": "live-server --port=5500 --open=index.html --watch=index.html",
+    "format": "prettier --write \"**/*.{html,css,js,json,md}\"",
+    "validate": "html-validate index.html",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "git add . && git commit -m 'Deploy updates' && git push origin master"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "homepage",
+    "template",
+    "business",
+    "responsive",
+    "github-pages",
+    "vscode",
+    "copilot"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "prettier": "^3.0.0",
+    "html-validate": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandsyui/alejandsyui.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alejandsyui/alejandsyui.github.io/issues"
+  },
+  "homepage": "https://alejandsyui.github.io"
+}
